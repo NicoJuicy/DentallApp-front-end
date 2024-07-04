@@ -123,7 +123,7 @@ cp .env.example .env
 ```
 - Build the image and initiate services.
 ```sh
-docker-compose up --build -d
+docker compose up --build -d
 ```
 - Access the application with this URL.
 ```
